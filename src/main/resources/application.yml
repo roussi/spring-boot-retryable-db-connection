@@ -3,7 +3,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/testDb
     username: wrong-username
     password: wrong-password
-
 logging:
   level:
     org.postgresql.core: OFF
