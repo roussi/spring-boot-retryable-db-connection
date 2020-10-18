@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testDb
+    username: wrong-username
+    password: wrong-password
+
+logging:
+  level:
+    org.postgresql.core: OFF
+    com.zaxxer.hikari: OFF
+    org.springframework.aop: OFF
+    org.hibernate.service: OFF
